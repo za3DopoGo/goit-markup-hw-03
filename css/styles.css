@@ -2,9 +2,36 @@ body {
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
+width: 1440px;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+ul {
+    padding-left: 0;
+}
+header {
+   border-bottom: 1px solid #E7E9FC;
+}
+.conteiner:not(:first-child) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+header > div {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    align-items: center;
 }
 a {
     text-decoration: none;
+}
+.menu {
+    margin-left: 76px;
+    display: flex;
+    gap: 40px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -14,6 +41,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-left: 156px;
 }
 .logo-studio {
     color: #2e2f42;
@@ -33,6 +61,13 @@ ul {
 address {
     font-style: normal;
 }
+.address > ul {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    margin-right: 156px;
+    margin-left: 332px;
+}
 .contact {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -41,8 +76,14 @@ address {
 .contact:hover, .contact:focus {
     color: #404bbf;
 }
+.logo, .nav-menu, .address {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .hero-image {
     background-color: #2e2f42;
+    text-align: center;
 }
 .slogan {
     font-size: 56px;
@@ -50,6 +91,9 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    width: 496px;
+    margin: auto;
+    padding-top: 188px;
 }
 .button {
     background-color: #4d5ae5;
@@ -58,9 +102,26 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 188px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button:hover, .button:focus {
     background-color: #404bbf;
+}
+.section-one > .conteiner > ul {
+    display: flex;
+    margin: 120px 156px;
+    gap: 24px
+
+}
+.feature {
+    width: calc((100% - 24)/4);
 }
 .benefit, .team-member-name, .project-card {
     font-weight: 500;
@@ -68,14 +129,18 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
 .description, .specialty, .type-of-project {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 .team-section {
     background-color: #f4f4fd;
 }
+
 .title-sec {
     font-size: 36px;
     line-height: 1.11;
@@ -83,17 +148,45 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+.team-list, .portfolio-list {
+    
+    display: flex;
+    gap: 24px;
+    margin: 0 156px 0 156px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.team-member-name {
+    
+}
+.specialty {
+    
 }
 .team-mem {
     background-color: #FFFFFF;
 }
+.portfolio-list {
+    flex-wrap: wrap;
+}
 .footer{
     background-color: #2e2f42;
 }
-.footer-parg {
+.footer > .conteiner  {
+    padding-top: 120px;
+    margin-bottom: 156px;
+    margin-bottom: 0;
+}
+.footer-parag {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    margin-left: 156px;
+    width: 264px;
+    padding-bottom: 100px;
+    margin-top: 16px;
 }
 .footer-logo-studio {
     color: #f4f4fd;
