@@ -19,6 +19,7 @@ header {
 .container{
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 
 header > div {
@@ -44,7 +45,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-left: 156px;
+    
     margin-right: 76px;
 }
 .logo-studio {
@@ -179,7 +180,6 @@ address {
     
     display: flex;
     gap: 24px;
-    margin: 0 156px 0 156px;
     padding-bottom: 120px;
     text-align: center;
 }
