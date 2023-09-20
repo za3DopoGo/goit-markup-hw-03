@@ -2,7 +2,9 @@ body {
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
-width: 1440px;
+}
+.section {
+    padding: 120px 0;
 }
 h1, h2, h3, p, ul {
     margin: 0;
@@ -46,7 +48,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-right: 76px;
+    
 }
 .logo-studio {
     color: #2e2f42;
@@ -69,7 +71,6 @@ address {
 .contacts {
     display: flex;
     gap: 40px;
-    margin-left: 177px;
     justify-content: flex-end;
    
 }
@@ -89,7 +90,7 @@ address {
 .hero-image {
     background-color: #2e2f42;
     text-align: center;
-    padding: 188px 0;
+    
 }
 .slogan {
     font-size: 56px;
