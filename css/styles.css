@@ -100,7 +100,7 @@ address {
     color: #FFFFFF;
     max-width: 496px;
     margin: auto;
-    padding-top: 188px;
+    
 }
 .button {
     background-color: #4d5ae5;
@@ -109,7 +109,6 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    margin: 8px auto 188px;
     display: block;
     padding: 16px 32px;
     align-items: flex-start;
@@ -123,12 +122,9 @@ address {
 .button:hover, .button:focus {
     background-color: #404bbf;
 }
-.section-one {
-    padding: 120px 0;
-}
+
 .section-one > .container > ul {
     display: flex;
-    margin: 120px 156px;
     gap: 24px
 
 }
@@ -155,16 +151,13 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 .description, .specialty, .type-of-project {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 .team-section {
     background-color: #f4f4fd;
-    padding: 120px 0;
     text-align: center;
 }
 .team-section > .container{
@@ -184,12 +177,9 @@ address {
     
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
     text-align: center;
 }
-.name-and-spec {
-    padding: 32px 0;
-}
+
 .team-member-name {
     text-align: center;
 }
@@ -200,9 +190,7 @@ address {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
-.portfolio-sec {
-    padding: 120px 0 120px 0;
-}
+
 .portfolio-list {
     flex-wrap: wrap;
     row-gap: 48px;
