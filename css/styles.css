@@ -45,7 +45,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
+    display: inline-block;
     margin-right: 76px;
 }
 .logo-studio {
@@ -218,20 +218,17 @@ address {
 }
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
-.footer > .conteiner  {
-    padding-top: 120px;
-    margin-bottom: 156px;
-    margin-bottom: 0;
+.footer-logo {
+    margin-bottom: 16px;
 }
 .footer-parag {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    margin-left: 156px;
     width: 264px;
-    padding-bottom: 100px;
-    margin-top: 16px;
+   
 }
 .footer-logo-studio {
     color: #f4f4fd;
