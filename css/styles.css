@@ -83,7 +83,7 @@ address {
 .contact:hover, .contact:focus {
     color: #404bbf;
 }
-.logo, .nav-menu, .address {
+.nav-menu, .address {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -169,7 +169,6 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-list, .portfolio-list {
@@ -198,7 +197,6 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    row-gap: 8px;
     margin-bottom: 8px;
     text-align: left;
 }
@@ -211,7 +209,8 @@ address {
     padding: 100px 0;
 }
 .footer-logo {
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
+
 }
 .footer-parag {
     line-height: 1.5;
